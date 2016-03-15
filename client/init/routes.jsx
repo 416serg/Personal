@@ -28,3 +28,48 @@ FlowRouter.route('/', {
     );
   },
 });
+
+FlowRouter.route('/about', {
+  name: 'about',
+  action() {
+    ReactLayout.render(MainLayout, 
+      {
+        content: <About />,
+      }
+    );
+  },
+});
+
+FlowRouter.route('/work', {
+  name: 'work',
+  action() {
+    ReactLayout.render(MainLayout, 
+      {
+        content: <Work />,
+      }
+    );
+  },
+});
+
+FlowRouter.route('/contact', {
+  name: 'contact',
+  action() {
+    ReactLayout.render(MainLayout, 
+      {
+        content: <Contact />,
+      }
+    );
+  },
+});
+
+FlowRouter.notFound = {
+  name: 'notFound',
+  triggersEnter: [],
+  action() {
+    ReactLayout.render(MainLayout, 
+      { 
+        content: <NotFound />
+      }
+    );
+  }
+};

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
   background: #111;
@@ -150,23 +151,23 @@ nav li a:hover:after {
 }
 
 nav li:nth-of-type(1) {
-  background-color: #29363B
+  background-color: #59323C
 }
 
 nav li:nth-of-type(2) {
-  background-color: #EA495F
+  background-color: #260126
 }
 
 nav li:nth-of-type(3) {
-  background-color: #F4837D
+  background-color: #A68572
 }
 
 nav li:nth-of-type(4) {
-  background-color: #FDCEA9
+  background-color: #BFAF80
 }
 
 nav li:nth-of-type(5) {
-  background-color: #99B998
+  background-color: #8C6954
 }
 
 
@@ -372,5 +373,23 @@ Animation keyframes
   }
   nav li a:before {
     width: 25px;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 400ms ease-in-out;
+  -o-animation: fadeIn 400ms ease-in-out;
+  -moz-animation: fadeIn 400ms ease-in-out;
+  -webkit-animation: fadeIn 400ms ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

@@ -1,0 +1,13 @@
+{
+  "galaxy.meteor.com": { 
+    "env": { 
+      "ROOT_URL": "http://416serg.com", 
+      "MONGO_URL": ""
+    } 
+  },
+  "public": {
+    "analyticsSettings": {
+      "Google Analytics" : {"trackingId": "UA-53669224-1"}
+    }
+  }
+}
