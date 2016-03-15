@@ -14,7 +14,7 @@ body {
   font-size:4em;
   text-align:center;
   height:200px;
-  width:600px;
+  max-width:600px;
   display:block;
   position:absolute;
   color:white;
@@ -23,6 +23,12 @@ body {
   left:0;
   right:0;
   margin:auto;
+}
+
+@media (max-width: 650px) {
+  .console-container {
+    font-size: 2em;
+  }
 }
 
 .console-underscore {
