@@ -1,7 +1,7 @@
 {
   "galaxy.meteor.com": { 
     "env": { 
-      "ROOT_URL": "http://416serg.com", 
+      "ROOT_URL": "http://www.416serg.com", 
       "MONGO_URL": ""
     } 
   },
